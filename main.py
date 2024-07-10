@@ -11,9 +11,7 @@ def get_or_create_eventloop():
 
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
-
 from contextlib import suppress
-
 from bot.utils.launcher import process
 
 
